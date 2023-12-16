@@ -1,0 +1,55 @@
+const  meat=[
+    {id:1,
+        "name" : " roast beef",
+        "image" : "https://t3.ftcdn.net/jpg/01/45/46/10/240_F_145461027_UESAGvh8W9V8tKkvCwxgrR9Ij1072QqN.jpg",
+          "img1":'https://t3.ftcdn.net/jpg/01/59/48/24/240_F_159482469_A7MgzJOwFi3ZznkvFL45vwjzY2U1qwcr.webp',
+          "img2":'https://t4.ftcdn.net/jpg/01/96/89/27/240_F_196892798_LinMYZl6cEdpgvqyskabF4dW9XU5m2lx.webp',
+          "img3":"https://t3.ftcdn.net/jpg/01/59/48/24/240_F_159482469_A7MgzJOwFi3ZznkvFL45vwjzY2U1qwcr.webp",
+        "price" :60
+      },
+      { id:2,
+        "name" : "seafood",
+        "image" : "https://t3.ftcdn.net/jpg/02/68/99/04/240_F_268990447_QlvMHbghlFs3fZ9QXGEfpeCHLG59VUul.jpg",
+        "img1":'https://t4.ftcdn.net/jpg/03/34/58/91/240_F_334589116_uyPMNMt0CXWh5TtqOyfZq5nwk5kyxtJi.jpg',
+        "img2":'https://t4.ftcdn.net/jpg/00/69/09/81/240_F_69098133_r6RAqSCL9MfxH0gII7pA2sHKi3XQhWfP.jpg',
+        "img3":"https://freepngimg.com/thumb/potato/6-potato-png-images-pictures-download-thumb.png",
+        "price" : 45
+      },
+      { id:3,
+        "name" : " roast beef",
+        "image" : "https://t3.ftcdn.net/jpg/01/45/46/10/240_F_145461027_UESAGvh8W9V8tKkvCwxgrR9Ij1072QqN.jpg",
+          "img1":'https://t3.ftcdn.net/jpg/01/59/48/24/240_F_159482469_A7MgzJOwFi3ZznkvFL45vwjzY2U1qwcr.webp',
+          "img2":'https://t4.ftcdn.net/jpg/01/96/89/27/240_F_196892798_LinMYZl6cEdpgvqyskabF4dW9XU5m2lx.webp',
+          "img3":"https://t3.ftcdn.net/jpg/01/59/48/24/240_F_159482469_A7MgzJOwFi3ZznkvFL45vwjzY2U1qwcr.webp",
+        "price" :60
+     
+      },
+      { id:4,
+        "name" : " chicken",
+        "image" : "https://el3.thembaydev.com/greenmart_fresh/wp-content/uploads/2021/08/product-34-291x291.jpg",
+          "img1":'https://el3.thembaydev.com/greenmart_fresh/wp-content/uploads/2021/08/product-34-100x100.jpg',
+          "img2":'https://el3.thembaydev.com/greenmart_fresh/wp-content/uploads/2021/08/product-33-570x570.jpg',
+          "img3":"https://el3.thembaydev.com/greenmart_fresh/wp-content/uploads/2021/08/product-32-570x570.jpg",
+        "price" :60
+      }
+      ,
+      { id:5,
+        "name" : "Fish",
+        "image" : "https://img.freepik.com/free-photo/fresh-fish-white_144627-24519.jpg?size=626&ext=jpg",
+          "img1":'https://img.freepik.com/premium-photo/digital-illustration-silver-carp-fish-engraving-technique_743855-20392.jpg?size=626&ext=jpg',
+          "img2":'https://img.freepik.com/premium-photo/digital-illustration-silver-carp-fish-engraving-technique_743855-20392.jpg?size=626&ext=jpg',
+          "img3":"https://img.freepik.com/free-photo/black-tilapia-tilapia_1339-851.jpg?size=626&ext=jpg",
+        "price" :60
+        }
+        ,
+        { id:6,
+          "name" : "Prawns",
+          "image" : "https://img.freepik.com/free-photo/whole-cooked-tiger-prawn_1339-2159.jpg?size=626&ext=jpg",
+            "img1":'https://img.freepik.com/free-photo/fresh-shrimp-prawn_1339-2185.jpg?size=626&ext=jpg',
+            "img2":'https://img.freepik.com/free-photo/shrimp-market_1150-11086.jpg?size=626&ext=jpg',
+            "img3":"https://img.freepik.com/free-photo/wooden-plate-delicious-shrimps-with-ice-cubes-sliced-lemon-stone-surface_114579-57087.jpg?size=626&ext=jpg",
+          "price" :60
+          }
+      
+    ]
+    export default meat;

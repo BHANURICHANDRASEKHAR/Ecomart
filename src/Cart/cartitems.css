@@ -1,0 +1,119 @@
+.cartitem{
+    height: fit-content;
+    display:flex;
+    max-width: 100%;
+    border-bottom: 1px solid grey;
+    border-top: 1px solid grey;
+    padding: 2px;
+  
+}
+.cartitem img{
+    height: 80px;
+    max-width :20%;
+    float:left;
+    object-fit:cover;
+}
+.cartitem button{
+    max-width:50px;
+    max-height: 35px;
+    background-color: #F0F0F0;
+    color: black;
+   
+    margin-top: 25px;
+    margin-left: 30px;
+}
+.cartitem span{
+   padding-left: 25px;
+   margin-top: 30px;
+
+}
+.cartitem h5{
+    max-width: fit-content;
+   font-weight: 500;
+   font-size: 19px;
+}
+.cartitem p{
+    margin-top: 35px;
+    margin-left: 20px;
+    font-size: 18px;
+}
+.pricecard{
+    background: #eef6fa;
+    width:25%;
+  margin-top:3.7%;
+  padding: 10px;
+    position: absolute;
+    right: 10%;
+   height: fit-content;
+
+}
+.row h2{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.pricecard h6{
+    width: 70%;
+}
+.wrapper {
+    display: grid;
+    grid-template-columns: 50% 50%;	
+    gap:0;
+    margin: 0;
+  }
+  
+
+  .box {
+       
+          color:black;
+          height:max-content;
+          padding: 1em;
+          border:1px solid red;
+  }
+  table tr td{
+    margin: 0;
+    max-height: 100px;
+   
+  }
+  table tr td h5{
+    margin: 15px;
+
+  }
+  table tr td p{
+    text-align: right;
+  }
+  .hr{
+    height: 2px;
+    width: 100%;
+    border-radius:10px;
+  }
+  .progress1{
+    max-width: 60%;
+  
+    background-color: #F0F0F0;
+    border-radius:5px;
+    overflow: hidden;
+ margin-top:50px;
+ margin-left:19%;
+    padding:0;
+
+  }
+  .progress{
+    height: 25px;
+   
+    background-color:#2b9348;
+    transition: 1s linear;
+    color:white;
+    text-align: center;
+    border-radius:5px;
+    
+  }
+
+  .progress-text p:first-child{
+    text-transform: capitalize;
+    margin-left:24%;
+    text-wrap: wrap;
+  }
+  .progress-text p:last-child{
+    text-transform: capitalize;
+    margin-left:13%;
+    text-wrap: wrap;
+  }

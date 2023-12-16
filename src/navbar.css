@@ -1,0 +1,122 @@
+
+.nav {
+    height: 50px;
+    width: 100%;
+    background-color:transparent;
+    position: relative;
+   
+  }
+  
+  .nav > .nav-header {
+    display: inline;
+  }
+  
+  .nav > .nav-header > .nav-title {
+    display: inline-block;
+    font-size: 22px;
+    color: black;   
+    padding: 10px 10px 10px 10px;
+  }
+  .nav-title::first-letter{
+    width: 200%;
+    font-size: 30px;
+    font-weight: bold;
+    color: green;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-style: italic;
+  }
+  
+  .nav > .nav-btn {
+    display: none;
+  }
+  
+  .nav > .nav-links {
+    display: inline;
+    float: right;
+    font-size: 18px;
+  }
+  
+  .nav > .nav-links > a {
+    display: inline-block;
+    padding: 13px 10px 13px 10px;
+    text-decoration: none;
+    color:black;
+  }
+  
+
+  .nav > #nav-check {
+    display: none;
+  }
+  
+  @media (max-width:600px) {
+ 
+    .nav > .nav-btn {
+      display: inline-block;
+      position: absolute;
+      right: 0px;
+      top: 0px;
+    }
+    .nav > .nav-btn > label {
+      display: inline-block;
+      width: 50px;
+      height: 50px;
+      padding: 13px;
+    }
+    .nav > .nav-btn > label:hover,.nav  #nav-check:checked ~ .nav-btn > label {
+      background-color: transparent;
+      cursor: pointer;
+    }
+    .nav > .nav-btn > label > span {
+      display: block;
+      width: 25px;
+      height: 2px;
+      margin:4px;
+      border-top: 2px solid black;
+    }
+    .nav > .nav-links {
+      position: absolute;
+      display: block;
+      width: 25%;
+      background-color:white;
+
+      height: 0px;
+      z-index: 1;
+      transition: all 0.6s ease-in-out;
+      overflow-y: hidden;
+      top: 50px;
+      right: 15px;
+      text-align: center;
+      border-radius: 0.5rem;
+      overflow: hidden;
+    }
+  
+    .nav > #nav-check:not(:checked) ~ .nav-links {
+      height: 0px;
+    }
+    .nav > #nav-check:checked ~ .nav-links {
+      height: calc(40vh - 50px);
+     width: calc(30vh - 50px);
+    }
+
+    
+  }
+/* container */
+.container,.container-fluid,.container-lg,.container-md,.container-sm,.container-xl,.container-xxl{
+    width:100%;
+    padding-right:
+    var(--bs-gutter-x,.75rem);
+    padding-left:var(--bs-gutter-x,.75rem);
+    margin-right:auto;
+    margin-left:auto
+  }
+  @media (min-width:576px){
+    .container,.container-sm{max-width:540px}}
+    @media (min-width:768px){
+      .container,.container-md,.container-sm{
+        max-width:720px
+      }}
+      @media (min-width:992px){
+        .container,.container-lg,.container-md,.container-sm{max-width:960px}}
+        @media (min-width:1200px){
+          .container,.container-lg,.container-md,.container-sm,.container-xl{max-width:1140px}}@media (min-width:1400px){.container,.container-lg,.container-md,.container-sm,.container-xl,.container-xxl{max-width:1320px}}.row{--bs-gutter-x:1.5rem;--bs-gutter-y:0;display:flex;flex-wrap:wrap;margin-top:calc(var(--bs-gutter-y) * -1);margin-right:calc(var(--bs-gutter-x) * -.5);margin-left:calc(var(--bs-gutter-x) * -.5)}.row>*{flex-shrink:0;width:100%;max-width:100%;padding-right:calc(var(--bs-gutter-x) * .5);padding-left:calc(var(--bs-gutter-x) * .5);margin-top:var(--bs-gutter-y)}.col{flex:1 0 0%}.row-cols-auto>*{flex:0 0 auto;width:auto}.row-cols-1>*{flex:0 0 auto;width:100%}.row-cols-2>*{flex:0 0 auto;width:50%}
+  

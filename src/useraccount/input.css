@@ -1,0 +1,26 @@
+.id{
+    padding: 30px;
+    user-select: none;
+}
+.input{
+    margin-top:20px;
+    margin-right:20px;
+}
+.input input[type="text"],input[type="mail"],input[type="number"]{
+   
+    height: 40px;
+    width: 280px;
+   padding: auto;
+   margin-right:20px;
+    font-size: 18px;
+    margin-top: 20px;
+   
+}
+.input label{
+    font-weight:500;
+    margin: 5px;
+}
+.input input[type="radio"]{
+    height: 20px;
+    width: 20x;
+}

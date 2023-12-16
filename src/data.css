@@ -1,0 +1,360 @@
+/* sticky-left */
+
+  .innercontent{
+    padding:10px;
+    color: black;
+  }
+  .innercontent h3{
+    text-align: center;
+    margin-bottom: 10px;
+  }
+  .innercontent p{
+    font-size: 18px;
+    font-weight:500;
+
+  }
+  .rowdata11{
+    display: flex;
+    margin-top: 30px;
+  }
+  .innercontent ul{
+    display: block;
+
+    margin: 0;
+  }
+  .innercontent ul li{
+    list-style-type: none;
+    margin:5px 0px;
+    cursor: pointer;
+  }
+  .innercontent ul li:hover{
+    color: hsl(112, 88%, 22%);
+  }
+  .hr{
+    margin-top:15px;
+    
+  }
+  .price{
+    margin-top: 20px;
+    padding-top:10px ;
+  }
+  button{
+    font-family: 'Ubuntu', sans-serif;
+  
+    width: 170px;
+    height: 40px;
+    line-height: 1;
+    font-size: 18px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    background:rgb(0, 153, 0);
+    outline: none;
+    margin:5% 0% 0% 5%;
+    border: none;
+    color:white;
+    border-radius:0.4rem;
+    cursor: pointer;
+    overflow: hidden;
+    transition: all .5s ease-in-out;
+  }
+  
+
+  /* /cards */
+  /* .grid-item2{
+    background: transparent;
+    width: 100%;
+    padding:0;
+    overflow: hidden;
+    border-radius: 0.2rem;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.15);
+    cursor: pointer;
+            height:290px; 
+  }
+  .grid-item2 img{
+    height:50%;
+    width: 100%;
+    object-fit:contain;
+    margin: 0;
+    mix-blend-mode:multiply;
+    perspective: 100px;
+  }
+  .grid-item2 h6{
+    font-size: 16px;
+    color: black;
+  }
+  .itemdetails{
+    position: relative;
+    display:flex;
+  }
+  .grid-item2 p{
+    color:black;
+    display:block;
+    font-family: sans-serif;
+    font-weight: 500;
+
+  } */
+  /* .card{
+    background: transparent;
+    width: 100%;
+    padding:0;
+    overflow: hidden;
+    border-radius: 0.2rem;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.15);
+    cursor: pointer;
+            height:290px; 
+
+    
+  }
+  
+  @media (min-width: 40rem) {
+    .cards_item {
+      width: 50%;
+    }
+  }
+  
+  @media (min-width: 56rem) {
+    .cards_item {
+      width: 33.3333%;
+    }
+  }
+   */
+  /* .card {
+    background-color: white;
+    border-radius: 0.25rem;
+    box-shadow: 0 20px 40px -14px rgba(0, 0, 0, 0.25);
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+  } */
+  
+  /* .card_content {
+   padding: auto;
+  }
+  
+  .card_title {
+    color: #ffffff;
+    font-size: 1.1rem;
+    font-weight: 700;
+    letter-spacing: 1px;
+    text-transform: capitalize;
+    margin: 0px;
+  }
+  
+  .card_text {
+    color: #ffffff;
+    font-size: 0.875rem;
+    line-height: 1.5;
+    margin-bottom: 1.25rem;    
+    font-weight: 400;
+  }
+  */
+  .sticky-bottom{
+    display: none;
+  }
+  .card {
+    border-radius: 0.7rem;
+      transition: 0.3s;
+    background-color: #fff;
+    cursor: pointer;
+    width: 90%;
+    margin: 5px;
+  }
+  .card:hover{
+    box-shadow: 0px 7px 7px 0px rgba(0, 0, 0, 0.176);
+  }
+  .card img{
+    width: inherit;
+    height: 48%;
+    object-fit: contain;
+  }
+  
+  
+  .container1 {
+    padding: 2px 16px;
+  }
+  .rating{
+    height: 25px;
+    width: 25px;
+    color:gold;
+    box-shadow: 1px solid black;
+  }
+  /* @media (max-width:1200) {
+    .sticky-left{
+      margin:20px;
+      height:inherit;
+      width: 30%;
+      position: -webkit-sticky;
+      position: sticky;
+      top:10%;
+      left:0%;
+      color:white;
+      background-color:white;
+      border-right: 1px solid black;
+      display: none;
+    }
+  .rowdata11{
+    background-color: red;
+  }
+    
+  } */
+  @media (min-width:870px) and (max-width:1200px)  {
+    .sticky-left{
+      margin:20px;
+      height:inherit;
+      width: 25%;
+      position: -webkit-sticky;
+      position: sticky;
+      top:10%;
+      left:0%;
+      color:white;
+      background-color:white;
+
+      border-right: 1px solid black;
+      }
+      .rowdata11{
+        margin-top: 30px;
+        background-color: rgb(17, 255, 0);
+
+      }
+  }
+  @media (min-width:430px) and (max-width:800px) {
+
+    .sticky-left{
+      display: none;
+     
+    }
+    .sticky-bottom{
+      margin:20px;
+      width: 100%;
+      position: -webkit-sticky;
+      position: sticky;
+      top:10%;
+      left:0%;
+      color:white;
+      background-color:white;
+      display:block;
+    }
+    button{
+      font-family: 'Ubuntu', sans-serif;
+    
+      width: 170px;
+      height: 40px;
+      line-height: 1;
+      font-size: 18px;
+      font-weight: bold;
+      letter-spacing: 1px;
+      background:rgb(0, 153, 0);
+      outline: none;
+      margin:1%;
+      border: none;
+      color:white;
+      border-radius:0.4rem;
+      cursor: pointer;
+      overflow: hidden;
+      transition: all .5s ease-in-out;
+    }
+    .card {
+      border-radius: 0.7rem;
+        transition: 0.3s;
+      background-color: #fff;
+      cursor: pointer;
+      width: 100%;
+      margin: 5px;
+    }
+  
+  }
+@media (max-width:429px)
+
+{
+  .sticky-left{
+    display: none;
+   
+  }
+
+  .main-grid{
+    gap:5px;
+  }
+  .sticky-bottom{
+    margin:20px;
+    width: 100%;
+    position: -webkit-sticky;
+    position: sticky;
+    top:10%;
+    left:0%;
+    color:white;
+    background-color:white;
+    display:block;
+  }
+  .card {
+    border-radius: 0.7rem;
+      transition: 0.3s;
+    background-color: #fff;
+    cursor: pointer;
+    width:95%;
+    height: 430px;
+    padding: auto;
+    border: 0.5px solid gray;
+    margin: 5px;
+  }
+  .card img{
+    width:inherit;
+    height: 40%;
+    object-fit: cover;
+  }
+  .card:hover{
+    box-shadow: none;
+  }
+  button{
+    font-family: 'Ubuntu', sans-serif;
+  
+    width: 140px;
+    height: 40px;
+    line-height: 1;
+    font-size: 16px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    background:rgb(0, 153, 0);
+    outline: none;
+    margin:1%;
+    border: none;
+    color:white;
+    border-radius:0.4rem;
+    cursor: pointer;
+    overflow: hidden;
+    transition: all .5s ease-in-out;
+  }
+ 
+}
+  /*   button{
+    font-family: 'Ubuntu', sans-serif;
+  
+    width: 170px;
+    height: 40px;
+    line-height: 1;
+    font-size: 18px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    border: 3px solid #8C82FC;
+    background: #fff;
+    color: #8C82FC;
+    border-radius:0.4rem;
+    cursor: pointer;
+    overflow: hidden;
+    transition: all .5s ease-in-out;
+  } */
+  .offer{
+    height:40px;
+    width: 40px;
+    border-radius: 50%;
+    z-index:5;
+  position:relative;
+  top:5%;
+    left:10%;
+    color:white;
+    background-color: red;
+    text-align: center;
+  }
+  .offer p{
+    text-align: center;
+    padding-top: 10px;
+  }
